@@ -1,0 +1,106 @@
+.
+├── application
+│   ├── create_map.py
+│   ├── evaluation
+│   │   ├── compute_object_goal_navigation_metrics.py
+│   │   ├── compute_spatial_goal_navigation_metrics.py
+│   │   ├── evaluate_object_goal_navigation.py
+│   │   └── evaluate_spatial_goal_navigation.py
+│   ├── generate_obstacle_map.py
+│   ├── index_map.py
+│   ├── object_goal_navigation.py
+│   ├── point_navigation_on_map.py
+│   └── test_primitives.py
+├── config
+│   ├── collect_dataset.yaml
+│   ├── data_paths
+│   │   └── default.yaml
+│   ├── generate_dataset.yaml
+│   ├── habitat_nav_cfg.yaml
+│   ├── map_config
+│   │   └── vlmaps.yaml
+│   ├── map_creation_cfg.yaml
+│   ├── map_indexing_cfg.yaml
+│   ├── object_goal_navigation_cfg.yaml
+│   ├── params
+│   │   └── default.yaml
+│   ├── spatial_goal_navigation_cfg.yaml
+│   └── test_config.yaml
+├── dataset
+│   ├── collect_custom_dataset.py
+│   └── generate_dataset.py
+├── install.bash
+├── LICENSE
+├── media
+│   ├── banner.png
+│   ├── vlmaps_index.gif
+│   └── vlmaps_process.gif
+├── pyproject.toml
+├── README.md
+├── requirements-dev.txt
+├── requirements.txt
+├── setup.py
+├── tree.txt
+├── vlmaps
+│   ├── controller
+│   │   ├── continuous_nav_controller.py
+│   │   ├── controller.py
+│   │   └── discrete_nav_controller.py
+│   ├── dataloader
+│   │   └── habitat_dataloader.py
+│   ├── __init__.py
+│   ├── lseg
+│   │   ├── additional_utils
+│   │   │   ├── encoding_models.py
+│   │   │   └── models.py
+│   │   ├── __init__.py
+│   │   └── modules
+│   │       ├── lsegmentation_module.py
+│   │       ├── lseg_module.py
+│   │       └── models
+│   │           ├── lseg_blocks.py
+│   │           ├── lseg_net.py
+│   │           └── lseg_vit.py
+│   ├── map
+│   │   ├── clip_map.py
+│   │   ├── gradcam_map.py
+│   │   ├── gtmap.py
+│   │   ├── __init__.py
+│   │   ├── interactive_map.py
+│   │   ├── map.py
+│   │   ├── __pycache__
+│   │   │   ├── __init__.cpython-38.pyc
+│   │   │   └── vlmap.cpython-38.pyc
+│   │   ├── vlmap_builder_cam.py
+│   │   ├── vlmap_builder.py
+│   │   └── vlmap.py
+│   ├── navigator
+│   │   └── navigator.py
+│   ├── __pycache__
+│   │   └── __init__.cpython-38.pyc
+│   ├── robot
+│   │   ├── habitat_lang_robot.py
+│   │   └── lang_robot.py
+│   ├── task
+│   │   ├── habitat_object_nav_task.py
+│   │   ├── habitat_spatial_goal_nav_task.py
+│   │   └── habitat_task.py
+│   └── utils
+│       ├── clip_utils.py
+│       ├── habitat_utils.py
+│       ├── index_utils.py
+│       ├── llm_utils.py
+│       ├── lseg_utils.py
+│       ├── mapping_utils.py
+│       ├── matterport3d_categories.py
+│       ├── navigation_utils.py
+│       ├── task_utils.py
+│       ├── time_utils.py
+│       └── visualize_utils.py
+└── vlmaps.egg-info
+    ├── dependency_links.txt
+    ├── PKG-INFO
+    ├── SOURCES.txt
+    └── top_level.txt
+
+24 directories, 80 files
