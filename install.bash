@@ -4,7 +4,7 @@ conda deactivate
 conda create -n vlmaps python=3.8 -y  # or use virtualenv
 conda activate vlmaps
 pip install pip==22.3 setuptools==65.5.0 wheel==0.37.1
-pip config set global.index-url https://mirrors.tuna.tsinghua.edu.cn/pypi/web/simple
+pip config set global.index-url http://mirrors.aliyun.com/pypi/simple/
 # ================
 
 pip install -r requirements.txt
