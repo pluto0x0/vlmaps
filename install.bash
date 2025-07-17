@@ -1,5 +1,5 @@
 #!/bin/bash
-
+source ~/.bashrc
 conda deactivate
 conda create -n vlmaps python=3.8 -y  # or use virtualenv
 conda activate vlmaps
