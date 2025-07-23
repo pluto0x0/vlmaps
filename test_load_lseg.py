@@ -1,28 +1,13 @@
 import os
 from pathlib import Path
-from typing import Any, Dict, List, Tuple, Union, Set
-
 from tqdm import tqdm
 import cv2
 import torchvision.transforms as transforms
 import numpy as np
-from omegaconf import DictConfig
 import torch
 import gdown
-import open3d as o3d
 
 from vlmaps.utils.lseg_utils import get_lseg_feat
-from vlmaps.utils.mapping_utils import (
-    load_3d_map,
-    save_3d_map,
-    cvt_pose_vec2tf,
-    load_depth_npy,
-    depth2pc,
-    transform_pc,
-    base_pos2grid_id_3d,
-    project_point,
-    get_sim_cam_mat,
-)
 from vlmaps.lseg.modules.models.lseg_net import LSegEncNet
 
 
